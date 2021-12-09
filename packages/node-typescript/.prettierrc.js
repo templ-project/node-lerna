@@ -5,31 +5,24 @@ module.exports = {
   overrides: [
     // see other parsers https://prettier.io/docs/en/options.html#parser
     {
-      files: '*.json',
+      files: '*.js',
       options: {
-        parser: 'json',
-        singleQuote: false,
+        parser: 'babel',
       },
     },
     {
-      files: '*.json5',
+      files: '*.json',
       options: {
         parser: 'json5',
         singleQuote: false,
       },
     },
-    {
-      files: '*.ts,tsx',
-      options: {
-        parser: 'typescript',
-        singleQuote: false,
-      },
-    },
   ],
-  parser: 'babel',
+  parser: 'typescript',
   printWidth: 120,
   semi: true,
   singleQuote: true,
   tabWidth: 2,
   trailingComma: 'all',
+  bracketSpacing: false,
 };

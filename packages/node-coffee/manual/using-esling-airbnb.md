@@ -1,13 +1,5 @@
 ## Using EsLint with Airbnb Rules
 
-### Install Aribnb Rules
-
-```bash
-npm i -D eslint-config-airbnb-base
-# or
-yarn add --dev eslint-config-airbnb-base
-```
-
 ### Configure EsLint for Airbnb Rules
 
 * Open `.eslintrc.js`
