@@ -11,6 +11,7 @@
     "lint": "lerna run lint --scope @node-lerna/*",
     "prepare": "husky install",
     "prettier": "lerna run prettier --scope @node-lerna/*",
+    "release": "lerna publish",
     "test": "lerna run test --scope @node-lerna/*"
   },
   "repository": {

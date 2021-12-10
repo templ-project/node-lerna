@@ -1,6 +1,6 @@
 {
   "name": "@node-lerna/node-typescript",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Node Project Template",
   "main": "dist/commonjs/index.ts",
   "types": "dist/index.d.ts",
