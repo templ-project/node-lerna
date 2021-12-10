@@ -22,7 +22,7 @@
     "predocs": "rimraf docs",
     "prerelease": "npm run build",
     "pretest": "npm run clean",
-    "prettier": "prettier --config ../../.prettierrc.js --write \"{,!(.nyc_output|coverage)/**/}*.{js,json,jsx,ts,tsx}\"",
+    "prettier": "prettier --config ../../.prettierrc.js --write \"{,!(.nyc_output|coverage|dist)/**/}*.{js,json,jsx,ts,tsx}\"",
     "release": "release-it --config ../../.release-it.json --ci",
     "sonar": "sonar-scanner",
     "test:junit": "npm run test -- --reporter mocha-junit-reporter --reporter-options mochaFile=.junit.xml",

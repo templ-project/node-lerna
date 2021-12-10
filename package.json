@@ -9,6 +9,7 @@
     "cleanup": "rimraf {./,packages/**/}{.nyc_output,coverage,node_modules,package-lock.json,yarn.lock}",
     "postinstall": "lerna bootstrap",
     "lint": "lerna run lint --scope @node-lerna/*",
+    "prepare": "husky install",
     "prettier": "lerna run prettier --scope @node-lerna/*",
     "test": "lerna run test --scope @node-lerna/*"
   },
