@@ -12,7 +12,8 @@
     "prepare": "husky install",
     "prettier": "lerna run prettier --scope @node-lerna/*",
     "release": "lerna publish",
-    "test": "lerna run test --scope @node-lerna/*"
+    "test": "lerna run test --scope @node-lerna/*",
+    "version": "lerna publish"
   },
   "repository": {
     "type": "git",

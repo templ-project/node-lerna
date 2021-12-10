@@ -1,6 +1,6 @@
 {
   "name": "@node-lerna/node-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1-dev.0",
   "description": "Node Project Template",
   "main": "dist/commonjs/index.ts",
   "types": "dist/index.d.ts",
@@ -73,7 +73,6 @@
     "typedoc": "^0.22.10",
     "typescript": "^4.5.3"
   },
-  "peerDependencies": {},
   "importSort": {
     ".js, .jsx": {
       "parser": "babylon",
