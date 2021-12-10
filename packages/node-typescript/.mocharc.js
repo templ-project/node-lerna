@@ -1,8 +1,8 @@
 // .mocharc.js
 
+const mochaConfig = require('../../.mocharc');
+
 module.exports = {
-  recursive: true,
-  reporter: 'spec',
-  timeout: 5000,
-  require: ["ts-node/register", 'chai/register-assert', 'chai/register-expect', 'chai/register-should'],
+  ...mochaConfig,
+  require: ['ts-node/register', ...mochaConfig.require],
 };

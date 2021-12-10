@@ -2,7 +2,7 @@
 
 <!-- https://hits.seeyoufarm.com/ -->
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftempl-project%2Fnode&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/templ-project/node/issues)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/templ-project/node-lerna/issues)
 
 ![JSCPD](.jscpd/jscpd-badge.svg?raw=true)
 
@@ -26,7 +26,7 @@
 [![Donate to this project using Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://patreon.com/dragoscirjan)
 [![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QBP6DEBJDEMV2&source=url)
 
-<img alt="JavaScript Logo" src="https://github.com/templ-project/node/blob/main/javascript.svg?raw=true" width="20%" align="right" />
+<img alt="JavaScript Logo" src="https://github.com/templ-project/node-lerna/blob/main/javascript.svg?raw=true" width="20%" align="right" />
 
 <!-- Project Description Starts Here -->
 
@@ -101,7 +101,7 @@ Use sub-headers if necesary
 -->
 
 ```bash
-git clone https://github.com/templ-project/node your_project
+git clone https://github.com/templ-project/node-lerna your_project
 cd your_project
 rm -rf .git
 git init

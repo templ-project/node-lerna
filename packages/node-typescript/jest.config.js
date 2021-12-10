@@ -19,12 +19,10 @@
  * ```
  */
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const jestConfig = require('../../jest.config');
+
 module.exports = {
-  clearMocks: true,
-  coverageDirectory: 'coverage',
-  moduleFileExtensions: ['js', 'json', 'jsx', 'ts', 'tsx'],
-  // rootDir: '.',
-  roots: ['test'],
-  testEnvironment: 'node',
+  ...jestConfig,
   transform: {'^.+\\.(t|j)s$': 'ts-jest'},
 };

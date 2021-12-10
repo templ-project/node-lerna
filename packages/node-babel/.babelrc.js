@@ -1,5 +1,3 @@
 // .babelrc.js
-module.exports = {
-  presets: ['@babel/preset-env'],
-  plugins: [],
-};
+
+module.exports = require('../../.babelrc');
